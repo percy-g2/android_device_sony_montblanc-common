@@ -52,8 +52,8 @@ BOARD_EGL_CFG := device/sony/montblanc-common/config/egl.cfg
 COMMON_GLOBAL_CFLAGS += -DSTE_HARDWARE
 
 #Fm Radio
-#BOARD_USES_STE_FM := true
-#COMMON_GLOBAL_CFLAGS +=-DSTE_FM
+BOARD_USES_STE_FM := true
+COMMON_GLOBAL_CFLAGS +=-DSTE_FM
 
 # Lights
 TARGET_PROVIDES_LIBLIGHTS := true
