@@ -60,6 +60,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
    lights.montblanc
 
+PRODUCT_PACKAGES += \
+   power.montblanc \
+   libasf
+
 # Misc
 PRODUCT_PACKAGES += \
    com.android.future.usb.accessory
