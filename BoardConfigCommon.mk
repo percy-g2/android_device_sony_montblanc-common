@@ -47,6 +47,7 @@ BOARD_TI_SOFTAP := true
 
 # Graphics
 USE_OPENGL_RENDERER := true
+BOARD_NUM_FRAME_BUFFERS := 3
 BOARD_EGL_CFG := device/sony/montblanc-common/config/egl.cfg
 COMMON_GLOBAL_CFLAGS += -DSTE_HARDWARE
 
